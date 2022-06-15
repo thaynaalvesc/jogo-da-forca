@@ -23,3 +23,7 @@
 
 <h3>Extras:</h3>
 - A página deve conter um campo para inserção de texto com a finalidade de adicionar novas palavras ao jogo, e um botão "Adicionar nova palavra".
+
+<p>Badge recebido devido a finalização do projeto</p>
+
+<img align="center" alt="badge" src="/imagens/badge.pgn"/>
