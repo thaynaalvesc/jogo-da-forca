@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da Forca</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <!--Título com imagem-->
+            <img src="imagens/pngwing.com.png" alt="Uma forca" width="50" height="50">
+            <h1>&nbsp Jogo da Forca</h1>
+        </header>
+
+        <main>
+            <!--Tela inicial-->
+            <div id="tela-inicial">
+                <button class="iniciar-jogo">Jogar</button>
+                <button class="nova-palavra">Adicionar Palavra</button>
+            </div>
+            <!--Área do jogo-->
+            <div id="area-jogo">
+                <canvas id="canvas" width="800" height="384"></canvas>
+            </div>
+            <!--Opção ao acabar o jogo-->
+            <div id="voltar-menu">
+                <button class="voltar-menu">Voltar Menu</button>
+            </div>
+            <!--Formulário para adicionar nova palavra com dica-->
+            <div id="formulario">
+                <fieldset>
+                    <legend>Adicionar nova palavra</legend>
+                    <form id="adicionar-palavra">
+                        <label for="palavra" class="palavra">Nova palavra:</label><input type="text" id="palavra" class="palavra" required>
+                        <br>
+                        <label for="dica" class="dica">Nova dica:</label><input type="text" id="dica" class="dica" required>
+                        <br>
+                        <button id="enviar-form" type="button">Enviar</button>        
+                    </form>
+                </fieldset>
+            </div>
+        </main>
+
+        <footer id="rodape">
+            <!--Informações do rodapé-->
+            <p>Desenvolvido por @thaynaalvesc 
+            <br>
+            <a href="https://www.linkedin.com/in/thaynaalvesc/" target="_blanck"><img src="imagens/174857.png" width="26" height="26"></a>
+            <a href="https://github.com/thaynaalvesc" target="_blanck"><img src="imagens/733553.png" width="26" height="26"></a>
+            <br>
+            Um desafio do Oracle Next Education e Alura</p>
+        </footer>
+
+        <script src="javascript/botoes.js"></script>
+        <script src="javascript/desenharForca.js"></script>
+        <script src="javascript/desenharTracos.js"></script>
+        <script src="javascript/jogando.js"></script>
+    </body>
+</html>
