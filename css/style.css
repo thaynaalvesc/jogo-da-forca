@@ -18,7 +18,6 @@ header{
     font-weight: bold;
     margin: 0 auto;
     padding: 20px;
-    position: absolute;
     text-align: center;
     top: 0px;
     width: 100vw;
@@ -29,10 +28,12 @@ h1{
 }
 
 #tela-inicial{
+    align-items: center;
     background-color: white;
-    left: 42%;
-    position: absolute;
-    top: 35%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
 }
 
 button.iniciar-jogo, button.nova-palavra{
@@ -150,4 +151,56 @@ footer{
     position: absolute;
     text-align: center;
     width: 100vw;
+}
+
+@media screen and (max-width: 768px){
+    #tela-inicial{
+        height: 300px;
+    }
+
+    #canvas{
+        width: 500px;
+        height: 300px;
+    }
+
+    button.voltar-menu{
+        font-size: 12px;
+        width: 234px;
+    }
+
+    footer{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header{
+        font-size: 37px;
+    }
+
+    button.iniciar-jogo, button.nova-palavra{
+        font-size: 15px;
+        height: 69px;
+        width: 182px;
+    }
+
+    #canvas{
+        width: 380px;
+        height: 200px;
+    }
+
+    #area-jogo{
+        left: 1%;
+        top: 36.2%;
+    }
+
+    button.voltar-menu{
+        font-size: 9px;
+        width: 111px;
+        height: 26px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
 }
