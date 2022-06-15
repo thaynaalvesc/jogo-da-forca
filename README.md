@@ -3,10 +3,11 @@
 
 <br>
 
+<div align="center">
   <h2>Tecnologias utilizadas:</h2>
-
   <img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img align="center" alt="CCS" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/> <img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
-
+</div>
+  
 <br>
 <br>
 
@@ -24,6 +25,7 @@
 <h3>Extras:</h3>
 - A página deve conter um campo para inserção de texto com a finalidade de adicionar novas palavras ao jogo, e um botão "Adicionar nova palavra".
 
-<p>Badge recebido devido a finalização do projeto</p>
-
-<img align="center" alt="badge" src="/imagens/badge.pgn"/>
+<div align="center">
+  <h2>Badge recebido devido a finalização do projeto</h2>
+  <img alt="badge" width="200px" src="/imagens/badge.png"/>
+</div>
