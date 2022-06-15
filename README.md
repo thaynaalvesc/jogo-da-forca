@@ -9,7 +9,6 @@
 </div>
   
 <br>
-<br>
 
 <h3>Requisitos:</h3>
 - Deve funcionar só com letras maiúsculas;<br>
