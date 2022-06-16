@@ -47,7 +47,7 @@ function ouvindoTeclas(palavraSorteada){
         let tecla = event.key.toUpperCase();
         if (event.keyCode >= 65 && event.keyCode <= 90){
             if(palavraSorteada.includes(tecla)){
-                if(letrasCertas.includes(tecla) || letrasCertas.length == palavraSorteada.length){
+                if(letrasCertas.includes(tecla) || letrasCertas.length == palavraSorteada.length || letrasErradas.length == 6){
                     return false;
                 }else{
                     for (let i = 0; i < palavraSorteada.length; i++) {
@@ -58,7 +58,7 @@ function ouvindoTeclas(palavraSorteada){
                     }
                 }
             }else{
-                if(letrasErradas.includes(tecla)|| letrasCertas.length == palavraSorteada.length){
+                if(letrasErradas.includes(tecla)|| letrasErradas.length == 6 || letrasCertas.length == palavraSorteada.length){
                     return false;
                 }else{
                     escreverLetraIncorreta(tecla);
